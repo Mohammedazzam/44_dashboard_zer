@@ -5,6 +5,17 @@
 .aline-center {
     align-items: center;
 }
+.d-grid {
+    display: grid;
+}
+.gap-20 {
+    gap: 20px;
+}
+@media (max-width: 768px) {
+    .block-mobile {
+        display: block;
+    }
+}
 /* End Box */
 
 /* Start padin + Margin */
@@ -28,6 +39,7 @@
 }
 /* End padin + Margin */
 
+
 /* Start Color */
 .bg-white {
     background-color: white;
@@ -49,6 +61,11 @@
 }
 .fs-14 {
     font-size: 14px;
+}
+@media(max-width:767px){
+    .text-c-mobile {
+        text-align: center;
+    }
 }
 /* End Font */
 
