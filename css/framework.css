@@ -1,88 +1,127 @@
+:root {
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --orange-color: #f59e0b;
+  --green-color: #22c55e;
+  --red-color: #f44336;
+  --grey-color: #888;
+}
+
 /* Start Box */
 .d-flex {
-    display: flex;
+  display: flex;
 }
 .aline-center {
-    align-items: center;
+  align-items: center;
+}
+.space-between {
+    justify-content: space-between;
 }
 .d-grid {
-    display: grid;
+  display: grid;
 }
 .gap-20 {
-    gap: 20px;
+  gap: 20px;
+}
+.d-block {
+    display: block;
 }
 @media (max-width: 768px) {
-    .block-mobile {
-        display: block;
-    }
+  .block-mobile {
+    display: block;
+  }
 }
 /* End Box */
 
 /* Start padin + Margin */
-.p-10{
-    padding: 10px;    
+.p-10 {
+  padding: 10px;
 }
-.p-15{
-    padding: 15px;    
+.p-15 {
+  padding: 15px;
 }
 .p-20 {
-    padding: 20px;
+  padding: 20px;
+}
+.m-0 {
+    margin: 0;
 }
 .m-20 {
-    margin: 20px;
+  margin: 20px;
 }
 .mt-0 {
-    margin-top: 0;
+  margin-top: 0;
 }
-.w-full{
-    width: 100%;
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.w-full {
+  width: 100%;
 }
 /* End padin + Margin */
 
-
 /* Start Color */
 .bg-white {
-    background-color: white;
+  background-color: white;
+}
+
+.bg-eee {
+  background-color: #eee;
 }
 .c-black {
     color: black;
+  }
+.c-gray {
+    color: var(--grey-color);
+}
+.c-white{
+    color: white;
 }
 /* End Color */
 
 /* Start Position */
 .p-relative {
-    position: relative;
+  position: relative;
 }
 /* End Position */
 
 /* Start Font */
 .text-c {
-    text-align: center;
+  text-align: center;
 }
 .fs-14 {
-    font-size: 14px;
+  font-size: 14px;
 }
-@media(max-width:767px){
-    .text-c-mobile {
-        text-align: center;
-    }
+@media (max-width: 767px) {
+  .text-c-mobile {
+    text-align: center;
+  }
 }
 /* End Font */
 
 /* Start Border */
 .rad-6 {
-    border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -ms-border-radius: 6px;
-    -o-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
 }
 /* End Border */
 
 /* Start Component */
 .between-flex {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 /* End Component */
